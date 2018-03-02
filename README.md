@@ -4,7 +4,10 @@ Free website template created using Material design concepts especially for diff
 
 ## Preview
 
+Light theme
 ![Homepage Light](https://raw.githubusercontent.com/mam1konyan/collectio-react/master/preview-images/preview-1.png)
+
+Dark theme
 ![Homepage Dark](https://raw.githubusercontent.com/mam1konyan/collectio-react/master/preview-images/preview-2.png)
 
 ## Getting Started
