@@ -1,0 +1,65 @@
+@import '../../../vars';
+
+$footer-background--light: $footer-bgColor--light;
+$footer-color--light: $footer-txtColor--light;
+
+$footer-background--dark: $footer-bgColor--dark;
+$footer-color--dark: $footer-txtColor--dark;
+
+.footer {
+  grid-area: footer;
+  padding: 16px 20px;
+  text-align: center;
+
+  &.light {
+      background-color: $footer-background--light;
+
+    div {
+      cursor: default;
+      color: $footer-color--light;
+    }
+
+    a {
+      cursor: pointer;
+      text-decoration: none;
+      color: $footer-color--light;
+
+      &:hover {
+        color: $light-colorActive;
+      }
+    }
+  }
+
+  &.dark {
+      background-color: $footer-background--dark;
+
+    div {
+      cursor: default;
+      color: $footer-color--dark;
+    }
+
+    a {
+      cursor: pointer;
+      text-decoration: none;
+      color: $footer-color--dark;
+
+      &:hover {
+        color: $dark-colorActive;
+      }
+    }
+  }
+
+  @media(min-width: $screen-tablet){
+    text-align: left;
+  }
+}
+
+.code {
+  // color: #2185C5;
+  margin: 0 5px;
+}
+
+.heart {
+  color: #c23616;
+  margin: 0 5px;
+}

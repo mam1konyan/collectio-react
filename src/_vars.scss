@@ -1,0 +1,35 @@
+$screen-mobile: 480px;
+$screen-tablet: 768px;
+
+//light colors
+$light-colorMain: #FFFFFF;
+$light-colorActive: #FC8B11;
+$light-bcgrColorMain: #2B3B42;
+$light-bcgrColorScnd: #275263;
+
+$header-bgColor--light: $light-bcgrColorScnd;
+$sidebar-bgColor--light: $light-bcgrColorMain;
+$content-bgColor--light: $light-colorMain;
+$footer-bgColor--light: $sidebar-bgColor--light;
+
+$header-txtColor--light: $content-bgColor--light;
+$sidebar-txtColor--light: $content-bgColor--light;
+$content-txtColor--light: $sidebar-bgColor--light;
+$footer-txtColor--light: $content-bgColor--light;
+
+//dark colors
+$dark-colorMain: #4b4b4b;
+$dark-colorActive: #DC3522;
+$dark-bcgrColorMain: #1E1E20;
+$dark-bcgrColorScnd: #2A2C2B;
+$dark-colorText: #FFFFFF;
+
+$header-bgColor--dark: $dark-bcgrColorScnd;
+$sidebar-bgColor--dark: $dark-bcgrColorMain;
+$content-bgColor--dark: $dark-colorMain;
+$footer-bgColor--dark: $sidebar-bgColor--dark;
+
+$header-txtColor--dark: $dark-colorText;
+$sidebar-txtColor--dark: $dark-colorText;
+$content-txtColor--dark: $dark-colorText;
+$footer-txtColor--dark: $dark-colorText;

@@ -1,0 +1,123 @@
+@import '../../../vars';
+
+$close-cidth: 30px;
+$header-padding: 20px;
+
+$header-background--light: $header-bgColor--light;
+$body-color--light: $content-bgColor--light;
+$close-color--light: $body-color--light;
+
+$header-background--dark: $header-bgColor--dark;
+$body-color--dark: $content-bgColor--dark;
+$close-color--dark: $body-color--dark;
+
+.header {
+  grid-area: header;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 9;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+  &.light {
+    background: $header-background--light;
+  }
+
+  &.dark {
+    background: $header-background--dark;
+  }
+}
+
+.logo {
+  font-family: 'Krona One', sans-serif;
+  cursor: pointer;
+  width: 150px;
+  font-size: 18px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  text-decoration: none;
+
+  &.light {
+    background: $header-background--light;
+    color: $body-color--light;
+  }
+
+  &.dark {
+    background: $header-background--dark;
+    color: $dark-colorText;
+  }
+
+  @media (min-width: $screen-tablet) {
+    font-size: 24px;
+    width: 300px;
+
+    &.light {
+      background: $body-color--light;
+      color: $header-background--light;
+    }
+
+    &.dark {
+      background: $body-color--dark;
+      color: $dark-colorText;
+    }
+  }
+}
+
+.github {
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-right: 10px;
+
+  &__text {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-right: $header-padding /2;
+  }
+
+  &.light {
+    color: $close-color--light;
+  }
+
+  &.dark {
+    color: $dark-colorText;
+  }
+
+  @media(min-width: $screen-tablet) {
+    margin-right: $header-padding;
+  }
+}
+
+.flag {
+  color: #fff;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.light {
+    background: $body-color--light;
+    color: $header-background--light;
+  }
+
+  &.dark {
+    background: $body-color--dark;
+    color: $dark-colorText;
+  }
+
+  @media(min-width: $screen-tablet){
+    display: none;
+  }
+}

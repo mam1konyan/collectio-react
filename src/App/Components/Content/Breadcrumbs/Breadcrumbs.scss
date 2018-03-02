@@ -1,0 +1,37 @@
+@import '../../../../vars';
+
+$breadcrumbs-background--light: $light-colorActive;
+$breadcrumbs-color--light: $light-colorMain;
+
+$breadcrumbs-background--dark: $dark-colorActive;
+$breadcrumbs-color--dark: $dark-colorMain;
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    padding: 10px 15px 10px 20px;
+    box-sizing: border-box;
+
+    &.light {
+        background: $breadcrumbs-background--light;
+        color: $breadcrumbs-color--light;
+    }
+
+    &.dark {
+        background: $breadcrumbs-background--dark;
+        color: $dark-colorText;
+    }
+}
+
+.close {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.name {
+    font-weight: 400;
+}

@@ -1,0 +1,127 @@
+@import '../../../vars';
+
+$content-background--light: $content-bgColor--light;
+$content-color--light: $content-txtColor--light;
+$content-active--light: $light-colorActive;
+
+$content-background--dark: $content-bgColor--dark;
+$content-color--dark: $content-txtColor--dark;
+$content-active--dark: $dark-colorActive;
+
+.content {
+  
+  &__home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__teams {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    width: 100%;
+    height: 100%;
+    max-width: 1170px;
+
+    &.light {
+      background: $content-background--light;
+    }
+
+    &.dark {
+      background: $content-background--dark;
+    }
+  }
+
+  &__wrapper {
+    grid-area: content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &.light {
+      background-image: url('./background-light.jpg');
+    }
+
+    &.dark {
+      background-image: url('./background-dark.png');
+    }
+  }
+}
+
+.itemWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  padding: 25px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+.about {
+  
+  &__text {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+
+    .number {
+      font-weight: 400;
+    }
+
+    &.light {
+      color: $content-color--light;
+
+      .number { color: $content-active--light; }
+    }
+
+    &.dark {
+      color: $content-color--dark;
+      
+      .number { color: $content-active--dark; }
+    }
+
+    @media(min-width: $screen-tablet){
+      font-size: 22px;
+      line-height: 40px;
+      text-align: left;
+    }
+  } 
+  
+  &__github {
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 25px;
+
+    &.light {
+      color: $content-color--light;
+    }
+
+    &.dark {
+      color: $content-color--dark;
+    }
+
+    @media(min-width: $screen-tablet){
+      font-size: 18px;
+      line-height: 32px;
+    }
+  }
+}
+
+.logo {
+  font-family: 'Krona One', sans-serif;
+}
+
+// .heart {
+//   color: $content-active;
+// }

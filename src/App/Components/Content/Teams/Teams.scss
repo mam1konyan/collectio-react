@@ -1,0 +1,95 @@
+@import '../../../../vars';
+
+$child-width: 150px;
+
+$child-borderColor--light: $light-colorActive;
+$close-color--light: $child-borderColor--light;
+$text-color--light: $content-txtColor--light;
+$modal-background--light: $content-bgColor--light;
+
+$child-borderColor--dark: $dark-colorText;
+$close-color--dark: $dark-colorText;
+$text-color--dark: $dark-colorText;
+$modal-background--dark: $content-bgColor--dark;
+
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: $child-width;
+    height: $child-width;
+    border-radius: 50%;
+    margin: 0 15px 10px;
+    cursor: pointer;
+
+    img {
+        height: 90px;
+    }
+
+    &.light {
+        border: 1px solid $child-borderColor--light;
+    }
+
+    &.dark {
+        border: 1px solid $child-borderColor--dark;
+    }
+}
+
+.teamName {
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+
+    &.light {
+        color: $text-color--light;
+    }
+
+    &.dark {
+        color: $text-color--dark;
+    }
+}
+
+.wrapper {
+    text-align: center;
+    margin: 15px;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    position: relative;
+
+    &.light {
+        background: $modal-background--light;
+    }
+
+    &.dark {
+        background: $modal-background--dark;
+    }
+
+    &Img {
+        width: 100%;
+    }
+
+    &Close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 10px;
+        padding: 5px;
+        background: transparent;
+        cursor: pointer;
+        font-size: 18px;
+
+        &.light {
+            color: $close-color--light;
+        }
+
+        &.dark {
+            color: $close-color--dark;
+        }
+    }
+}

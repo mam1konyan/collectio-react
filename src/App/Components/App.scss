@@ -1,0 +1,38 @@
+@import "../../vars";
+
+$height-size: 100vh;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+  @media(max-width: $screen-tablet) {
+    overflow: hidden;
+  }
+}
+
+ul {
+  margin: 0;
+}
+
+.wrapper {
+  display: grid;
+  height: $height-size;
+  grid-template-columns: 100vw;
+  grid-template-rows: 50px calc(100vh - 100px) 50px;
+  grid-template-areas: 
+    "header"
+    "content"
+    "footer";
+
+  @media (min-width: $screen-tablet){
+    grid-template-columns: 300px auto;
+    grid-template-rows: 50px calc(100vh - 100px) 50px;
+    grid-template-areas: 
+      "header header"
+      "sidebar content"
+      "sidebar footer";
+  }
+}
