@@ -10,6 +10,9 @@ Light theme
 Dark theme
 ![Homepage Dark](https://raw.githubusercontent.com/mam1konyan/collectio-react/master/preview-images/preview-2.png)
 
+And fully responsive :)
+![Homepage Dark](https://raw.githubusercontent.com/mam1konyan/collectio-react/master/preview-images/preview-3.png)
+
 ## Getting Started
 
 Follow steps bellow for have project running on your local machine. Yay, it's so easy!
