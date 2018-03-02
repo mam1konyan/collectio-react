@@ -4,7 +4,7 @@ Free website template created using Material design concepts especially for diff
 
 ## Getting Started
 
-Follow steps bellow for have project running on your local machine. Yay, is's so easy!
+Follow steps bellow for have project running on your local machine. Yay, it's so easy!
 
 ### Prerequisites
 
