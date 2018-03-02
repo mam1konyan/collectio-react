@@ -20,7 +20,7 @@ const header = (props) => {
         />
       </span>
       <a
-        href="https://github.com"
+        href="https://github.com/mam1konyan/collectio-react"
         target="_blank"
         rel="noopener noreferrer"
         className={logoClasses}

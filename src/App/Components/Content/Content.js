@@ -57,7 +57,7 @@ const content = (props) => {
                         <div className={aboutgithubClasses}>
                             Created using <span className={classes.logo}>collectio</span>.
                             <br/>
-                            Want website like this? Feel free to download project from GitHub. <FontAwesomeIcon icon={faHeart} className={classes.heart} />
+                            Want website like this? Feel free to <a href="https://github.com/mam1konyan/collectio-react" target="_blank" rel="noopener noreferrer">download project from GitHub</a>. <FontAwesomeIcon icon={faHeart} className={classes.heart} />
                         </div>
                     </div>
                 </div>
