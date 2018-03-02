@@ -2,6 +2,11 @@
 
 Free website template created using Material design concepts especially for different kind of collectors
 
+## Preview
+
+![Homepage Light](https://raw.githubusercontent.com/mam1konyan/collectio-react/master/preview-images/preview-1.png)
+![Homepage Dark](https://raw.githubusercontent.com/mam1konyan/collectio-react/master/preview-images/preview-2.png)
+
 ## Getting Started
 
 Follow steps bellow for have project running on your local machine. Yay, it's so easy!
