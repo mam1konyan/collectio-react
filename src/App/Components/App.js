@@ -13,134 +13,139 @@ class App extends Component {
         name: 'Armenia',
         code: 'AM',
         childs: [ 
-          ['Armenia NT', './logos/armenia/armenia.png', './scarves/armenia/armenia.png'],
-          ['FC Alashkert', './logos/armenia/alashkert.png', './scarves/armenia/alashkert.png'],
-          ['FC Ararat Yerevan', './logos/armenia/ararat.png', './scarves/armenia/ararat.png'],
-          ['FC Banants', './logos/armenia/banants.png', './scarves/armenia/banants.png'],
-          ['FC Pyunik', './logos/armenia/pyunik.png', './scarves/armenia/pyunik.png'],
-          ['FC Gandzasar Kapan', './logos/armenia/gandzasar.png', './scarves/armenia/gandzasar.png'],
-          ['Mika FC', './logos/armenia/mika.png', './scarves/armenia/mika.png'],
-          ['FC Pyunik (10 titles)', './logos/armenia/pyunik10.png', './scarves/armenia/pyunik10.png']
+          ['Item Name', './logos/armenia/120X120.png', './scarves/armenia/900X300.png'],
+          ['Item Name', './logos/armenia/120X120.png', './scarves/armenia/900X300.png'],
+          ['Item Name', './logos/armenia/120X120.png', './scarves/armenia/900X300.png'],
+          ['Item Name', './logos/armenia/120X120.png', './scarves/armenia/900X300.png'],
+          ['Item Name', './logos/armenia/120X120.png', './scarves/armenia/900X300.png'],
+          ['Item Name', './logos/armenia/120X120.png', './scarves/armenia/900X300.png'],
+          ['Item Name', './logos/armenia/120X120.png', './scarves/armenia/900X300.png'],
+          ['Item Name', './logos/armenia/120X120.png', './scarves/armenia/900X300.png'],
+          ['Item Name', './logos/armenia/120X120.png', './scarves/armenia/900X300.png'],
+          ['Item Name', './logos/armenia/120X120.png', './scarves/armenia/900X300.png'],
+          ['Item Name', './logos/armenia/120X120.png', './scarves/armenia/900X300.png'],
+          ['Item Name', './logos/armenia/120X120.png', './scarves/armenia/900X300.png'],
+          ['Item Name', './logos/armenia/120X120.png', './scarves/armenia/900X300.png'],
+          ['Item Name', './logos/armenia/120X120.png', './scarves/armenia/900X300.png'],
+          ['Item Name', './logos/armenia/120X120.png', './scarves/armenia/900X300.png']
         ] 
       },
       {
         name: 'Bulgaria',
         code: 'BG',
         childs: [
-          ['PFC Levski Sofia', './logos/bulgaria/levski.png', './scarves/bulgaria/levski.png'],
-          ['PFC Ludogorets Razgrad', './logos/bulgaria/ludogorets.png', './scarves/bulgaria/ludogorets.png']
+          ['Item Name', './logos/bulgaria/120X120.png', './scarves/bulgaria/900X300.png'],
+          ['Item Name', './logos/bulgaria/120X120.png', './scarves/bulgaria/900X300.png'],
+          ['Item Name', './logos/bulgaria/120X120.png', './scarves/bulgaria/900X300.png'],
+          ['Item Name', './logos/bulgaria/120X120.png', './scarves/bulgaria/900X300.png'],
+          ['Item Name', './logos/bulgaria/120X120.png', './scarves/bulgaria/900X300.png'],
+          ['Item Name', './logos/bulgaria/120X120.png', './scarves/bulgaria/900X300.png'],
+          ['Item Name', './logos/bulgaria/120X120.png', './scarves/bulgaria/900X300.png']
         ]
       },
       {
         name: 'Denmark',
         code: 'DK',
         childs: [
-          ['Denmark NT', './logos/denmark/denmark.png', './scarves/denmark/denmark.png']
+          ['Item Name', './logos/denmark/120X120.png', './scarves/denmark/900X300.png'],
+          ['Item Name', './logos/denmark/120X120.png', './scarves/denmark/900X300.png'],
+          ['Item Name', './logos/denmark/120X120.png', './scarves/denmark/900X300.png'],
+          ['Item Name', './logos/denmark/120X120.png', './scarves/denmark/900X300.png']
         ]
       },
       { name: 'England', 
         code: 'GB-ENG',
         childs: [
-          ['Chelsea F.C.', './logos/england/chealsea.png', './scarves/england/chelsea.png']
+          ['Item Name', './logos/england/120X120.png', './scarves/england/900X300.png'],
+          ['Item Name', './logos/england/120X120.png', './scarves/england/900X300.png'],
+          ['Item Name', './logos/england/120X120.png', './scarves/england/900X300.png']
         ] 
       },
       { name: 'Estonia', 
         code: 'EE',
         childs: [
-          ['Estonia NT', './logos/estonia/estonia.png', './scarves/estonia/estonia.png']
+          ['Item Name', './logos/estonia/120X120.png', './scarves/estonia/900X300.png'],
+          ['Item Name', './logos/estonia/120X120.png', './scarves/estonia/900X300.png']
         ] 
       },
       { name: 'France',
         code: 'FR', 
         childs: [
-          ['France NT', './logos/france/france.png', './scarves/france/france.png']
+          ['Item Name', './logos/france/120X120.png', './scarves/france/900X300.png']
         ] 
       },
       {
         name: 'Germany',
         code: 'DE',
         childs: [
-          ['Germany NT', './logos/germany/germany.png', './scarves/germany/germany.png'],
-          ['FV Bad Honnef', './logos/germany/honnef.png', './scarves/germany/honnef.png'],
-          ['FC Bayern Munich', './logos/germany/bayern.png', './scarves/germany/bayern.png'],
-          ['Borussia Dortmund', './logos/germany/borussia_d.png', './scarves/germany/borussia_d.png'],
-          ['1. FSV Mainz 05', './logos/germany/mainz.png', './scarves/germany/mainz.png']
+          ['Item Name', './logos/germany/120X120.png', './scarves/germany/900X300.png']
         ]
       },
       { name: 'Ireland',
         code: 'IE',
         childs: [
-          ['Ireland NT', './logos/ireland/ireland.png']
+          ['Item Name', './logos/ireland/120X120.png', './scarves/ireland/900X300.png']
         ] 
       },
       { name: 'Italy',
         code: 'IT',  
         childs: [
-          ['A.S. Roma', './logos/italy/roma.png']
+          ['Item Name', './logos/italy/120X120.png', './scarves/italy/900X300.png']
         ] 
       },
       { name: 'Kazakhstan', 
         code: 'KZ',
         childs: [
-          ['Kazakhstan NT', './logos/kazakhstan/kazakhstan.png']
+          ['Item Name', './logos/kazakhstan/120X120.png', './scarves/kazakhstan/900X300.png']
         ] 
       },
       { name: 'Lithuania',
         code: 'LT', 
         childs: [
-          ['Lithuania NT', './logos/lithuania/lithuania.png']
+          ['Item Name', './logos/lithuania/120X120.png', './scarves/lithuania/900X300.png']
         ] 
       },
       { name: 'Moldova', 
         code: 'MD',
         childs: [
-          ['FC Sheriff Tiraspol', './logos/moldova/sheriff.png']
+          ['Item Name', './logos/moldova/120X120.png', './scarves/moldova/900X300.png']
         ] 
       },
       { name: 'Netherlands', 
         code: 'NL',
         childs: [
-          ['Roda JC Kerkrade', './logos/netherlands/roda.png']
+          ['Item Name', './logos/netherlands/120X120.png', './scarves/netherlands/900X300.png']
         ] 
       },
       {
         name: 'Portugal',
         code: 'PT',
         childs: [
-          ['Portugal NT', './logos/portugal/portugal.png'],
-          ['S.L. Benfica', './logos/portugal/benfica.png'],
-          ['FC Porto', './logos/portugal/porto.png'],
-          ['Sporting CP', './logos/portugal/sporting.png']
+          ['Item Name', './logos/portugal/120X120.png', './scarves/portugal/900X300.png']
         ]
       },
       { name: 'Russia',
         code: 'RU',
         childs: [
-          ['FC Lokomotiv Moscow', './logos/russia/lokomotiv.png'],
-          ['FC Rostov', './logos/russia/rostov.png']
+          ['Item Namew', './logos/russia/120X120.png', './scarves/russia/900X300.png']
         ] 
       },
       { name: 'Spain',
         code: 'ES',
         childs: [
-          ['Spain NT', './logos/spain/spain.png'],
-          ['UD Almería', './logos/spain/almeria.png'],
-          ['Athletic Bilbao', './logos/spain/athletic_b.png'],
-          ['Atlético Madrid', './logos/spain/atletico_m.png'],
-          ['FC Barcelona', './logos/spain/barca.png'],
-          ['Real Madrid C.F.', './logos/spain/real_m.png']
+          ['Item Name', './logos/spain/120X120.png', './scarves/spain/900X300.png']
         ] 
       },
       { name: 'Sweden',
         code: 'SE',
         childs: [
-          ['Helsingborgs IF', './logos/sweden/helsingborgs.png']
+          ['Item Name', './logos/sweden/120X120.png', './scarves/sweden/900X300.png']
         ] 
       },
       { name: 'Switzerland',
         code: 'CH', 
         childs: [
-          ['AC Bellinzona', './logos/switzerland/bellinzona.png']
+          ['Item Name', './logos/switzerland/120X120.png', './scarves/switzerland/900X300.png']
         ] 
       },
     ],

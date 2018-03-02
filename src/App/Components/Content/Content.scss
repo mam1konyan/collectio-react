@@ -105,10 +105,18 @@ $content-active--dark: $dark-colorActive;
 
     &.light {
       color: $content-color--light;
+
+      a {
+        color: $content-color--light;
+      }
     }
 
     &.dark {
       color: $content-color--dark;
+
+      a {
+        color: $content-color--dark;
+      }
     }
 
     @media(min-width: $screen-tablet){
