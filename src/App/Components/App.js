@@ -143,44 +143,6 @@ class App extends Component {
           ['AC Bellinzona', './logos/switzerland/bellinzona.png']
         ] 
       },
-      {
-        name: 'Players',
-        code: 'pla',
-        childs: [
-          ['Paulo Futre', './logos/players/futre.jpg']
-        ]
-      },
-      {
-        name: 'Matchday',
-        code: 'mtch',
-        childs: [
-          ['Armenia - Denmark', './logos/matchday/armden.png'],
-          ['Real M - Barcelona', './logos/matchday/realbarca17.png'],
-          ['Real M - Juventus', './logos/matchday/realjuve17.png'],
-          ['Barcelona - Sevilla', './logos/matchday/barcasev.png']
-        ]
-      },
-      {
-        name: 'Ultras',
-        code: 'ultr',
-        childs: [
-          ['Proud Eagles (Banants)', './logos/ultras/banants.png'],
-          ['B\'zona Boys 05 (Bellinzona)', './logos/ultras/bellinzona.png'],
-          ['FAF (Armenia)', './logos/ultras/faf.png'],
-          ['Hellas Verona Ultras', './logos/ultras/verona.png']
-        ]
-      },
-      {
-        name: 'For Change',
-        code: 'chng',
-        childs: [
-          ['Chicago Blackhawks', './logos/change/blackhawks.png'],
-          ['London 2012 (AOC)', './logos/change/london.png'],
-          ['AS Roma (Old Logo)', './logos/change/roma.png'],
-          ['UEFA Supercup 2015', './logos/change/supercup2015.png'],
-          ['Pittsburgh Steelers (NFL)', './logos/change/steelers.png']
-        ]
-      },
     ],
     lightMode: true,
     activeItemCode: '',

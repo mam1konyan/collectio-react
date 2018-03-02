@@ -50,9 +50,8 @@ const content = (props) => {
                 <div className={classes.content__home}>
                     <div className={classes.about}>
                         <div className={abouttextClasses}>
-                            Hi there! My name is Paruyr. I'm a JavaScript programmer from Yerevan, Armenia. <br/>
-                            I have a lot of hobbies and football is one of them. I've started collecting scarves from 2009.<br/>
-                            At this moment I have <span className={classes.number}>53</span> scarves from <span className={classes.number}>18</span> countries.
+                            Thank you for downloading my small template created in <span className={classes.number}>2018</span>.<br/>
+                            I'll really appreciate if you'll contribute to project as well.<br/>
                         </div>
                         <div className={aboutgithubClasses}>
                             Created using <span className={classes.logo}>collectio</span>.
