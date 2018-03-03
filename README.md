@@ -47,10 +47,10 @@ After stuff completed by computer just take all files from ./build folder and de
 
 ## Authors
 
-* **Paruyr Mamikonyan** - [Personal Website](http://mamikonyan.info)
+* **Paruyr Mamikonyan** - [Website](http://mamikonyan.info)
 
 See also the list of [contributors](https://github.com/mam1konyan/collectio-react/graphs/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License.
