@@ -1,6 +1,6 @@
 import React from 'react';
 import sizeMe from 'react-sizeme';
-import App from './Components/App';
+import App from '../Containers/App';
 
 function MyComponent({ size }) {
 

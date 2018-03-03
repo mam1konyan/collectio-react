@@ -19,7 +19,7 @@ Follow steps bellow for have project running on your local machine. Yay, it's so
 
 ### Prerequisites
 
-> Ensure to have NodeJS, npm & yarn installed 
+> Ensure to have NodeJS & npm installed 
 
 ### Installing
 
@@ -40,7 +40,7 @@ npm start
 Run command bellow after which you can deploy project to real server
 
 ```
-yarn build
+npm run build
 ```
 
 After stuff completed by computer just take all files from ./build folder and deploy to your server :)

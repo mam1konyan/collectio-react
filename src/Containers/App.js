@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import classes from './App.scss';
-import Header from './Header/Header';
-import Footer from './Footer/Footer';
-import Sidebar from './Sidebar/Sidebar';
-import Content from './Content/Content';
+import Header from '../Components/Header/Header';
+import Footer from '../Components/Footer/Footer';
+import Sidebar from '../Components/Sidebar/Sidebar';
+import Content from '../Components/Content/Content';
 
 class App extends Component {
   
