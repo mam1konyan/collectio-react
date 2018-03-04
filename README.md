@@ -16,6 +16,8 @@ And fully responsive :) <br />
 
 ![Tools](https://raw.githubusercontent.com/mam1konyan/collectio-react/master/preview-images/preview-4.png)
 
+[Demo](http://test.mamikonyan.info/)
+
 ## Getting Started
 
 Follow steps bellow for have project running on your local machine. Yay, it's so easy!
