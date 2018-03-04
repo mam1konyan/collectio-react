@@ -11,7 +11,7 @@ Dark theme
 ![Homepage Dark](https://raw.githubusercontent.com/mam1konyan/collectio-react/master/preview-images/preview-2.png)
 
 And fully responsive :)
-![Homepage Dark](https://raw.githubusercontent.com/mam1konyan/collectio-react/master/preview-images/preview-3.png)
+![Homepage Mobile](https://raw.githubusercontent.com/mam1konyan/collectio-react/master/preview-images/preview-3.gif)
 
 ## Getting Started
 

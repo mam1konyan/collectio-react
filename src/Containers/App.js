@@ -57,12 +57,16 @@ class App extends Component {
   componentWillMount() {
     
     if (!this.state.countryNames.length) {
-      axios.get('http://localhost:3000/request.json') // IMPORTANT: replace localhost with your domain before putting code on live server
+      /* 
+      IMPORTANT: 
+        for running local: ensure your app running on port :3000, othervise just change port in GET request bellow
+        for prod build: ensure to replace http://localhost:3000/ with your server address before putting code on live server
+      */
+      axios.get('http://localhost:3000/request.json')
         .then(response => {
           this.setState({
             countryNames: response.data.body
-          })
-          console.log('will', response);
+          });
         }
       );
     }
