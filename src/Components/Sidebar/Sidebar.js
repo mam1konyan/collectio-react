@@ -1,4 +1,5 @@
 import React from 'react';
+import Flag from 'react-flags';
 import classes from './Sidebar.scss';
 
 const sidebar = (props) => {
@@ -45,12 +46,13 @@ const sidebar = (props) => {
                                 className={props.activeCode === country.code ? activeClasses : countryClasses}
                                 onClick={() => props.handleClick(country.code, country.name)}
                                 style={rowStyle}
-                                    >
-                                    <img 
-                                    className={ classes.flag }
-                                        src={'/flags/' + country.code + '@3x.png'}
-                                        height="24"
-                                        alt=""
+                            >
+                                    <Flag
+                                        className={classes.flag}
+                                        name={country.code}
+                                        format="png"
+                                        pngSize={32}
+                                        basePath="/img/flags"
                                     />
                                     <span>{country.name}</span>
                                 <span className={countClasses}>{country.childs.length}</span>
