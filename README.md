@@ -16,7 +16,7 @@ And fully responsive :) <br />
 
 ![Tools](https://raw.githubusercontent.com/mam1konyan/collectio-react/master/preview-images/preview-4.png)
 
-[Demo](https://scarves.mamikonyan.info/)
+[Demo](http://scarves.mamikonyan.io/)
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ Follow steps bellow for have project running on your local machine. Yay, it's so
 
 ### Prerequisites
 
-> Ensure to have NodeJS & npm installed 
+> Ensure to have NodeJS & npm installed
 
 ### Installing
 
@@ -52,7 +52,7 @@ After stuff completed by computer just take all files from ./build folder and de
 
 ## Authors
 
-* **Paruyr Mamikonyan** - [Website](http://mamikonyan.info)
+- **Paruyr Mamikonyan** - [Website](http://mamikonyan.info)
 
 See also the list of [contributors](https://github.com/mam1konyan/collectio-react/graphs/contributors) who participated in this project.
 
